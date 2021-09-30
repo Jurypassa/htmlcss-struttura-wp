@@ -7,7 +7,7 @@
 }
 
 body{
-    width: 80%;
+    width: 65%;
     margin: 0 auto;
 }
 
@@ -20,9 +20,64 @@ body{
 .top{
     height: 100px;
     background-color: hotpink;
+    margin-top: 10px;
 }
 
 .bottom{
-    height: 500px;
+    height: 280px;
     background-color: khaki;
+}
+
+/****** main ******/
+
+.container{
+    background-color:dodgerblue;
+    margin-bottom: 10px;
+}
+
+.colonna, .riga{
+    background-color: rgb(103, 212, 248);
+}
+
+.riga{
+    height: 50px;  
+}
+
+.colonna{
+    float:left;
+}
+    
+.clearfix::after{
+    content: 0;
+    clear: both;
+    display: table;
+}
+
+.prima{
+    width:20%;
+}
+
+.seconda{
+    width: 58%;
+    margin: 0 1%;
+}
+
+.terza{
+    width: 20%;
+}
+/***** footer *****/
+
+.footer{
+    height: 50px;
+    background-color: fuchsia   ;
+}
+
+/****** debug ******/
+
+.container, .debug{
+    height: 350px;
+}
+
+.colonna{
+    height: 260px;
 }
