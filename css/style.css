@@ -1,5 +1,28 @@
+/****** common ******/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/****** Header ******/
+
+.mg-20{
+    margin-bottom: 20px;
+}
+
+.top{
+    height: 100px;
+    background-color: hotpink;
+}
+
+.bottom{
+    height: 500px;
+    background-color: khaki;
 }
